@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from "react-router-dom";
 import io from 'socket.io-client';
 import { clearUser } from '../utils/userSlice';
-const socket = io('http://localhost:1337'); 
+const socket = io('https://chatapp-strapi-backend.onrender.com'); 
 
 
 const ChatComponent = () => {
